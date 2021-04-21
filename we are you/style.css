@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: none;
+  margin: 0px 15px;
+  font-family: inter;
+  background-color:#FACB1E;
+}
+
+body{
+  overflow:hidden;
+}
+
+
+.nav-bar ul {
+  margin-top:-50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-bar ul li {
+  font-size:23px;
+  text-decoration: none;
+  list-style: none;
+  font-weight:500;
+}
+
+.nav-bar ul li a{
+  position:relative;
+  left:50px;
+}
+
+.nav-bar .logo{
+  font-size:25px;
+  margin-top :30px ; 
+  font-weight :600;
+  letter-spacing:1px;
+}
+
+.icon i{
+  position:relative;
+  top:-15px;
+  left:-34px;
+  color:white;
+  font-size:50px;
+  background-color:transparent;
+  border-radius:60px;
+  cursor :pointer;
+ }
+
+.nav-bar .circle{
+  position:relative;
+  top:-20px;
+  left:70px;
+  height:70px;
+  width:70px;
+  background-color:black;
+  border-radius:50px;
+  cursor:pointer;
+ }
+
+.main{
+  overflow:hidden;
+}
+
+
+
+.main .circle{
+  position:absolute;
+  top:-40px;
+  left:650px;
+  height:1050px;
+  width:1050px;
+  background-color:black;
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.main .square{
+  position:absolute;
+  top:125px;
+  left:815px;
+  height:720px;
+  width:720px;
+  background-color:#FACB1E;
+  overflow:hidden;
+}
+
+.main h1{
+  background-color:transparent;
+  position:absolute;
+  top:390px;
+  left:200px;
+  color:white;
+  font-size:90px;
+}
+
+
+
+
+
+
+
+
+
